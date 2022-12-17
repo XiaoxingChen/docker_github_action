@@ -4,4 +4,4 @@ print('hello acbcd')
 
 if __name__ == "__main__":
     print('hello python')
-    exit(1)
+    exit(0)
