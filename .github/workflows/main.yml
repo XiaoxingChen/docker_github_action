@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: xiaoxingchen/docker_github_action/hello-world-docker-action@42e88f4ec37daccd23b713609c78e6a76a3d499a
+        uses: xiaoxingchen/docker_github_action/hello-world-docker-action@f544e2c8f8c7465612848ce5368da0d573c11693
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
